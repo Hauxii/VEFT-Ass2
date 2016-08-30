@@ -11,7 +11,6 @@ namespace WebApplication.Models
         public int ID { get; set; }
         public DateTime StartDate;
         public DateTime EndDate;
-
-        public List<Student> students;
+        public string Semester { get; set; }
     }
 }
